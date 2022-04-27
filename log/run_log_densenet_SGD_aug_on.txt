@@ -1,0 +1,224 @@
+Eval Log Tue Apr 26 22:54:59 2022
+Namespace(augmentation='False', backbone='densenet', batch_size=8, checkpoints_dir='./ckpt', data_root='./DATA', dataset_file='KU', epochs=80, eval_freq=5, gpu_id=3, lr=0.01, lr_backbone=0.01, lr_drop=40, num_workers=8, optimizer='SGD', output_dir='./log', resume=None, seed=19, start_epoch=0, tensorboard_dir='./runs')Eval Log Tue Apr 26 22:55:11 2022
+Namespace(augmentation='True', backbone='densenet', batch_size=8, checkpoints_dir='./ckpt', data_root='./DATA', dataset_file='KU', epochs=80, eval_freq=5, gpu_id=3, lr=0.01, lr_backbone=0.01, lr_drop=40, num_workers=8, optimizer='SGD', output_dir='./log', resume=None, seed=19, start_epoch=0, tensorboard_dir='./runs')Eval Log Wed Apr 27 09:05:10 2022
+Namespace(augmentation='False', backbone='densenet', batch_size=8, checkpoints_dir='./ckpt', data_root='./DATA', dataset_file='KU', epochs=80, eval_freq=5, gpu_id=3, lr=0.01, lr_backbone=0.01, lr_drop=40, num_workers=8, optimizer='SGD', output_dir='./log', resume=None, seed=19, start_epoch=0, tensorboard_dir='./runs')0 epoch loss:0.29888, cost time: 75.24s 
+1 epoch loss:0.19912, cost time: 73.27s 
+2 epoch loss:0.16427, cost time: 75.38s 
+3 epoch loss:0.13746, cost time: 74.36s 
+4 epoch loss:0.12464, cost time: 75.07s 
+5 epoch loss:0.11052, cost time: 72.70s 
+loss_test:0.14183549582958221,acc_test:0.8856088560885609,time:43.616634368896484, min loss_test:0.14183549582958221
+loss@0: 0.14183549582958221,acc_test@0: 0.8856088560885609
+6 epoch loss:0.10372, cost time: 73.73s 
+7 epoch loss:0.09403, cost time: 73.34s 
+8 epoch loss:0.08759, cost time: 73.43s 
+9 epoch loss:0.08633, cost time: 73.53s 
+10 epoch loss:0.08234, cost time: 73.85s 
+loss_test:0.1371077448129654,acc_test:0.8976014760147601,time:43.376750469207764, min loss_test:0.1371077448129654
+loss@1: 0.1371077448129654,acc_test@1: 0.8976014760147601
+11 epoch loss:0.07821, cost time: 73.21s 
+12 epoch loss:0.07575, cost time: 74.19s 
+13 epoch loss:0.07711, cost time: 74.44s 
+14 epoch loss:0.07377, cost time: 72.30s 
+15 epoch loss:0.07283, cost time: 73.72s 
+loss_test:0.14338992536067963,acc_test:0.9012915129151291,time:43.14214372634888, min loss_test:0.1371077448129654
+loss@2: 0.14338992536067963,acc_test@2: 0.9012915129151291
+16 epoch loss:0.07026, cost time: 74.09s 
+17 epoch loss:0.07107, cost time: 74.67s 
+18 epoch loss:0.06920, cost time: 73.90s 
+19 epoch loss:0.06967, cost time: 73.29s 
+20 epoch loss:0.06823, cost time: 74.81s 
+loss_test:0.13646072149276733,acc_test:0.9077490774907749,time:43.96552276611328, min loss_test:0.13646072149276733
+loss@3: 0.13646072149276733,acc_test@3: 0.9077490774907749
+21 epoch loss:0.06595, cost time: 73.47s 
+22 epoch loss:0.06787, cost time: 73.24s 
+23 epoch loss:0.06785, cost time: 74.82s 
+24 epoch loss:0.06498, cost time: 73.89s 
+25 epoch loss:0.06629, cost time: 73.83s 
+loss_test:0.13589820265769958,acc_test:0.9022140221402214,time:43.44509410858154, min loss_test:0.13589820265769958
+loss@4: 0.13589820265769958,acc_test@4: 0.9022140221402214
+26 epoch loss:0.06466, cost time: 73.81s 
+27 epoch loss:0.06262, cost time: 73.85s 
+28 epoch loss:0.06510, cost time: 74.04s 
+29 epoch loss:0.06464, cost time: 72.67s 
+30 epoch loss:0.06291, cost time: 73.57s 
+loss_test:0.13884274661540985,acc_test:0.9031365313653137,time:43.85576415061951, min loss_test:0.13589820265769958
+loss@5: 0.13884274661540985,acc_test@5: 0.9031365313653137
+31 epoch loss:0.06343, cost time: 72.98s 
+32 epoch loss:0.06267, cost time: 72.87s 
+33 epoch loss:0.06124, cost time: 74.32s 
+34 epoch loss:0.06018, cost time: 73.93s 
+35 epoch loss:0.05989, cost time: 73.12s 
+loss_test:0.13612854480743408,acc_test:0.9003690036900369,time:43.66392159461975, min loss_test:0.13589820265769958
+loss@6: 0.13612854480743408,acc_test@6: 0.9003690036900369
+36 epoch loss:0.06044, cost time: 72.78s 
+37 epoch loss:0.05994, cost time: 73.28s 
+38 epoch loss:0.05948, cost time: 73.42s 
+39 epoch loss:0.06018, cost time: 73.45s 
+40 epoch loss:0.05843, cost time: 74.30s 
+loss_test:0.13289599120616913,acc_test:0.9105166051660517,time:43.37235879898071, min loss_test:0.13289599120616913
+loss@7: 0.13289599120616913,acc_test@7: 0.9105166051660517
+41 epoch loss:0.05867, cost time: 72.87s 
+42 epoch loss:0.05812, cost time: 73.67s 
+43 epoch loss:0.05765, cost time: 72.18s 
+44 epoch loss:0.05825, cost time: 73.48s 
+45 epoch loss:0.05671, cost time: 73.75s 
+loss_test:0.13561709225177765,acc_test:0.9049815498154982,time:44.3570454120636, min loss_test:0.13289599120616913
+loss@8: 0.13561709225177765,acc_test@8: 0.9049815498154982
+46 epoch loss:0.05825, cost time: 73.90s 
+47 epoch loss:0.05753, cost time: 75.39s 
+48 epoch loss:0.05768, cost time: 74.78s 
+49 epoch loss:0.05706, cost time: 74.36s 
+50 epoch loss:0.05728, cost time: 72.92s 
+loss_test:0.13609284162521362,acc_test:0.9114391143911439,time:42.87342166900635, min loss_test:0.13289599120616913
+loss@9: 0.13609284162521362,acc_test@9: 0.9114391143911439
+51 epoch loss:0.05753, cost time: 73.10s 
+52 epoch loss:0.05690, cost time: 73.04s 
+53 epoch loss:0.05595, cost time: 73.31s 
+54 epoch loss:0.05642, cost time: 73.15s 
+55 epoch loss:0.05573, cost time: 73.73s 
+loss_test:0.13373702764511108,acc_test:0.9123616236162362,time:43.431726932525635, min loss_test:0.13289599120616913
+loss@10: 0.13373702764511108,acc_test@10: 0.9123616236162362
+56 epoch loss:0.05713, cost time: 73.15s 
+57 epoch loss:0.05613, cost time: 72.91s 
+58 epoch loss:0.05663, cost time: 73.64s 
+59 epoch loss:0.05605, cost time: 73.29s 
+60 epoch loss:0.05577, cost time: 73.73s 
+loss_test:0.1366586685180664,acc_test:0.9105166051660517,time:43.15602397918701, min loss_test:0.13289599120616913
+loss@11: 0.1366586685180664,acc_test@11: 0.9105166051660517
+61 epoch loss:0.05534, cost time: 72.23s 
+62 epoch loss:0.05562, cost time: 74.94s 
+63 epoch loss:0.05648, cost time: 75.63s 
+64 epoch loss:0.05554, cost time: 74.50s 
+65 epoch loss:0.05625, cost time: 76.00s 
+loss_test:0.1348566710948944,acc_test:0.9105166051660517,time:42.62262320518494, min loss_test:0.13289599120616913
+loss@12: 0.1348566710948944,acc_test@12: 0.9105166051660517
+66 epoch loss:0.05600, cost time: 74.74s 
+67 epoch loss:0.05520, cost time: 75.23s 
+68 epoch loss:0.05516, cost time: 75.33s 
+69 epoch loss:0.05618, cost time: 72.96s 
+70 epoch loss:0.05536, cost time: 73.47s 
+loss_test:0.13760165870189667,acc_test:0.9142066420664207,time:43.11768651008606, min loss_test:0.13289599120616913
+loss@13: 0.13760165870189667,acc_test@13: 0.9142066420664207
+71 epoch loss:0.05463, cost time: 73.39s 
+72 epoch loss:0.05575, cost time: 73.90s 
+73 epoch loss:0.05511, cost time: 74.22s 
+74 epoch loss:0.05697, cost time: 75.13s 
+75 epoch loss:0.05544, cost time: 73.98s 
+loss_test:0.1355595886707306,acc_test:0.9123616236162362,time:47.133628129959106, min loss_test:0.13289599120616913
+loss@14: 0.1355595886707306,acc_test@14: 0.9123616236162362
+76 epoch loss:0.05565, cost time: 73.21s 
+77 epoch loss:0.05532, cost time: 73.62s 
+78 epoch loss:0.05566, cost time: 73.62s 
+79 epoch loss:0.05578, cost time: 73.55s 
+Eval Log Wed Apr 27 13:16:16 2022
+Namespace(augmentation='True', backbone='densenet', batch_size=8, checkpoints_dir='./ckpt', data_root='./DATA', dataset_file='KU', epochs=80, eval_freq=5, gpu_id=1, lr=0.01, lr_backbone=0.01, lr_drop=40, num_workers=8, optimizer='SGD', output_dir='./log', resume=None, seed=19, start_epoch=0, tensorboard_dir='./runs')0 epoch loss:0.29891, cost time: 74.55s 
+1 epoch loss:0.19935, cost time: 72.71s 
+2 epoch loss:0.16424, cost time: 73.05s 
+3 epoch loss:0.13769, cost time: 72.49s 
+4 epoch loss:0.12452, cost time: 72.56s 
+5 epoch loss:0.11078, cost time: 72.89s 
+loss_test:0.14181432127952576,acc_test:0.8920664206642066,time:45.006404876708984, min loss_test:0.14181432127952576
+loss@0: 0.14181432127952576,acc_test@0: 0.8920664206642066
+6 epoch loss:0.10376, cost time: 71.79s 
+7 epoch loss:0.09418, cost time: 72.57s 
+8 epoch loss:0.08760, cost time: 72.84s 
+9 epoch loss:0.08648, cost time: 73.53s 
+10 epoch loss:0.08241, cost time: 72.70s 
+loss_test:0.13721700012683868,acc_test:0.9003690036900369,time:43.22226142883301, min loss_test:0.13721700012683868
+loss@1: 0.13721700012683868,acc_test@1: 0.9003690036900369
+11 epoch loss:0.07867, cost time: 72.78s 
+12 epoch loss:0.07578, cost time: 71.79s 
+13 epoch loss:0.07694, cost time: 73.19s 
+14 epoch loss:0.07372, cost time: 72.85s 
+15 epoch loss:0.07267, cost time: 71.95s 
+loss_test:0.14271704852581024,acc_test:0.8939114391143912,time:42.475603342056274, min loss_test:0.13721700012683868
+loss@2: 0.14271704852581024,acc_test@2: 0.8939114391143912
+16 epoch loss:0.07052, cost time: 72.24s 
+17 epoch loss:0.07102, cost time: 72.50s 
+18 epoch loss:0.06939, cost time: 74.33s 
+19 epoch loss:0.06991, cost time: 71.01s 
+20 epoch loss:0.06820, cost time: 71.37s 
+loss_test:0.13634969294071198,acc_test:0.9105166051660517,time:44.0034704208374, min loss_test:0.13634969294071198
+loss@3: 0.13634969294071198,acc_test@3: 0.9105166051660517
+21 epoch loss:0.06588, cost time: 71.43s 
+22 epoch loss:0.06728, cost time: 73.03s 
+23 epoch loss:0.06761, cost time: 74.00s 
+24 epoch loss:0.06507, cost time: 73.68s 
+25 epoch loss:0.06623, cost time: 72.37s 
+loss_test:0.13445401191711426,acc_test:0.9022140221402214,time:42.40252375602722, min loss_test:0.13445401191711426
+loss@4: 0.13445401191711426,acc_test@4: 0.9022140221402214
+26 epoch loss:0.06505, cost time: 73.91s 
+27 epoch loss:0.06287, cost time: 73.54s 
+28 epoch loss:0.06472, cost time: 72.26s 
+29 epoch loss:0.06436, cost time: 73.15s 
+30 epoch loss:0.06286, cost time: 71.50s 
+loss_test:0.136141836643219,acc_test:0.9022140221402214,time:42.993592739105225, min loss_test:0.13445401191711426
+loss@5: 0.136141836643219,acc_test@5: 0.9022140221402214
+31 epoch loss:0.06331, cost time: 72.23s 
+32 epoch loss:0.06269, cost time: 72.05s 
+33 epoch loss:0.06062, cost time: 72.46s 
+34 epoch loss:0.05962, cost time: 72.60s 
+35 epoch loss:0.06010, cost time: 71.73s 
+loss_test:0.13409870862960815,acc_test:0.9012915129151291,time:42.96495819091797, min loss_test:0.13409870862960815
+loss@6: 0.13409870862960815,acc_test@6: 0.9012915129151291
+36 epoch loss:0.05994, cost time: 73.99s 
+37 epoch loss:0.06025, cost time: 72.63s 
+38 epoch loss:0.05931, cost time: 72.25s 
+39 epoch loss:0.06009, cost time: 72.40s 
+40 epoch loss:0.05841, cost time: 72.38s 
+loss_test:0.13133589923381805,acc_test:0.9095940959409594,time:43.355223417282104, min loss_test:0.13133589923381805
+loss@7: 0.13133589923381805,acc_test@7: 0.9095940959409594
+41 epoch loss:0.05864, cost time: 72.12s 
+42 epoch loss:0.05822, cost time: 71.74s 
+43 epoch loss:0.05760, cost time: 72.48s 
+44 epoch loss:0.05808, cost time: 71.71s 
+45 epoch loss:0.05671, cost time: 73.02s 
+loss_test:0.1335391104221344,acc_test:0.9142066420664207,time:44.2862503528595, min loss_test:0.13133589923381805
+loss@8: 0.1335391104221344,acc_test@8: 0.9142066420664207
+46 epoch loss:0.05812, cost time: 71.53s 
+47 epoch loss:0.05738, cost time: 71.90s 
+48 epoch loss:0.05759, cost time: 72.50s 
+49 epoch loss:0.05703, cost time: 73.32s 
+50 epoch loss:0.05741, cost time: 72.85s 
+loss_test:0.13380880653858185,acc_test:0.9095940959409594,time:42.99157238006592, min loss_test:0.13133589923381805
+loss@9: 0.13380880653858185,acc_test@9: 0.9095940959409594
+51 epoch loss:0.05752, cost time: 72.86s 
+52 epoch loss:0.05671, cost time: 72.97s 
+53 epoch loss:0.05601, cost time: 72.28s 
+54 epoch loss:0.05632, cost time: 71.31s 
+55 epoch loss:0.05584, cost time: 72.82s 
+loss_test:0.1308666169643402,acc_test:0.9142066420664207,time:44.720611572265625, min loss_test:0.1308666169643402
+loss@10: 0.1308666169643402,acc_test@10: 0.9142066420664207
+56 epoch loss:0.05693, cost time: 72.25s 
+57 epoch loss:0.05588, cost time: 73.03s 
+58 epoch loss:0.05658, cost time: 73.45s 
+59 epoch loss:0.05607, cost time: 72.27s 
+60 epoch loss:0.05583, cost time: 72.19s 
+loss_test:0.13387413322925568,acc_test:0.9188191881918819,time:43.39091110229492, min loss_test:0.1308666169643402
+loss@11: 0.13387413322925568,acc_test@11: 0.9188191881918819
+61 epoch loss:0.05522, cost time: 71.94s 
+62 epoch loss:0.05577, cost time: 72.56s 
+63 epoch loss:0.05654, cost time: 72.52s 
+64 epoch loss:0.05550, cost time: 73.09s 
+65 epoch loss:0.05634, cost time: 73.43s 
+loss_test:0.13257941603660583,acc_test:0.9132841328413284,time:48.03345489501953, min loss_test:0.1308666169643402
+loss@12: 0.13257941603660583,acc_test@12: 0.9132841328413284
+66 epoch loss:0.05583, cost time: 73.24s 
+67 epoch loss:0.05509, cost time: 73.25s 
+68 epoch loss:0.05515, cost time: 72.71s 
+69 epoch loss:0.05621, cost time: 73.54s 
+70 epoch loss:0.05566, cost time: 71.98s 
+loss_test:0.13509167730808258,acc_test:0.9169741697416974,time:42.50419855117798, min loss_test:0.1308666169643402
+loss@13: 0.13509167730808258,acc_test@13: 0.9169741697416974
+71 epoch loss:0.05436, cost time: 71.22s 
+72 epoch loss:0.05546, cost time: 71.32s 
+73 epoch loss:0.05510, cost time: 72.72s 
+74 epoch loss:0.05691, cost time: 72.22s 
+75 epoch loss:0.05534, cost time: 71.95s 
+loss_test:0.13235320150852203,acc_test:0.9132841328413284,time:43.00776767730713, min loss_test:0.1308666169643402
+loss@14: 0.13235320150852203,acc_test@14: 0.9132841328413284
+76 epoch loss:0.05546, cost time: 72.90s 
+77 epoch loss:0.05538, cost time: 71.68s 
+78 epoch loss:0.05565, cost time: 72.59s 
+79 epoch loss:0.05572, cost time: 73.86s 
